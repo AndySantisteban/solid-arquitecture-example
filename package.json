@@ -1,0 +1,24 @@
+{
+  "name": "solid-ts-node",
+  "version": "1.0.1",
+  "description": "This is a example code what implements solid arquitecture ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsnd --transpile-only --respawn --ignore-watch node_modules src/server.ts"
+  },
+  "author": "AndySantisteban<andyjosue160720@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemailer": "^6.7.2",
+    "uuidv4": "^6.2.12"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/nodemailer": "^6.4.4",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.5"
+  }
+}
